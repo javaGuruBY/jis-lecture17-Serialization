@@ -1,8 +1,6 @@
-package by.jrr.serialization.service;
+package by.jrr.serialization.io.service;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class FileServiceTest {
 

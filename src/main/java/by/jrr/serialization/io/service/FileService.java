@@ -1,4 +1,4 @@
-package by.jrr.serialization.service;
+package by.jrr.serialization.io.service;
 
 import java.io.File;
 import java.time.Instant;
@@ -12,6 +12,8 @@ public class FileService {
     public static final String resources =
             Stream.of("src", "main", "resources")
                     .collect(joining(l, ".".concat(l), l));
+    public static final String loaderTextFile = resources.concat("loader.txt");
+    public static final String typedFile = resources.concat("typed.mytype");
 
     public static void baseSyntax() {
         File file = new File(resources.concat("loader.txt"));
