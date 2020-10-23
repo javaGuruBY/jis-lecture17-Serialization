@@ -1,7 +1,6 @@
-package by.jrr.serialization.parser.xml.service.dom;
+package by.jrr.serialization.parser.xml.service.dom.service;
 
-import by.jrr.serialization.parser.xml.XmlParser;
-import lombok.NoArgsConstructor;
+import by.jrr.serialization.parser.xml.service.dom.bean.Course;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
@@ -9,7 +8,6 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;

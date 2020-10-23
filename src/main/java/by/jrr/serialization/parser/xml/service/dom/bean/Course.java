@@ -1,4 +1,4 @@
-package by.jrr.serialization.parser.xml.service.dom;
+package by.jrr.serialization.parser.xml.service.dom.bean;
 
 import lombok.Data;
 

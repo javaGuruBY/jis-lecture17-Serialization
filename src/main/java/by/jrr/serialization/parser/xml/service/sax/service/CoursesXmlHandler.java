@@ -1,4 +1,4 @@
-package by.jrr.serialization.parser.xml.service.sax;
+package by.jrr.serialization.parser.xml.service.sax.service;
 
 import by.jrr.serialization.parser.xml.XmlParser;
 import org.xml.sax.Attributes;
@@ -11,7 +11,6 @@ import java.util.stream.Stream;
 import static by.jrr.serialization.parser.xml.XmlParser.log;
 
 public class CoursesXmlHandler extends DefaultHandler {
-
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
