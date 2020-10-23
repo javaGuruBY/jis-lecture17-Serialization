@@ -19,6 +19,10 @@ public class MaxResto {
         menus.stream()
                 .map(Iterable::iterator)
                 .forEach(a -> print(a));
+
+        menus.stream()
+                .map(Iterable::iterator)
+                .forEach(MaxResto::print);
     }
 
     private static void print(Iterator<MenuItem> menu) {

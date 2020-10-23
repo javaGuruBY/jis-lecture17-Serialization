@@ -1,0 +1,4 @@
+Max=ADMIN
+Pavel=ADMIN
+Product.price=20.0
+Product.amount=20
