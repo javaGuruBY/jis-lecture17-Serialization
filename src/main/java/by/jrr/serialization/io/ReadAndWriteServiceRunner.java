@@ -1,4 +1,4 @@
-package by.jrr.serialization;
+package by.jrr.serialization.io;
 
 import by.jrr.serialization.io.service.IODecoration;
 import by.jrr.serialization.io.service.ReadAndWriteFileService;
@@ -16,7 +16,7 @@ public class ReadAndWriteServiceRunner {
 //        ReadAndWriteFileService.readFileAsBytes();
 //        ReadAndWriteFileService.writeFileAsBytes();
 //        ReadAndWriteFileService.readFileAsSymbols();
-//        ReadAndWriteFileService.writeFileAsSymbols();
+        ReadAndWriteFileService.writeFileAsSymbols();
 //        ReadAndWriteFileService.readFileAsBytesArray();
 
 //        IODecoration.buffered();

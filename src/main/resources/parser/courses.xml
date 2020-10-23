@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<courses>
+    <course id="1" students="8">
+        <name>Java Intensive</name>
+        <description>Way to outsource</description>
+    </course>
+    <course id="2" students="108">
+        <name>PreIntensive</name>
+        <description>Became a RPA Developer</description>
+    </course>
+</courses>
