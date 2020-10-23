@@ -15,7 +15,8 @@ public class XmlParser {
 
     public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException, TransformerException {
 //        CoursesSaxParser.run();
-        CoursesSaxParser.printDtoFromXml();
+//        CoursesSaxParser.printDtoFromXml();
+        CoursesSaxParser.printCourseListFromXml();
 //        CoursesDomParser.run();
 //        List<Course> courses = CoursesDomParser.getCourses();
 //        log.info("coursers: " + courses);

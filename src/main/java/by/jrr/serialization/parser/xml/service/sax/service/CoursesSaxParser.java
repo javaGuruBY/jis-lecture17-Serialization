@@ -28,4 +28,14 @@ public class CoursesSaxParser {
 
         log.info(handler.getCourses().toString());
     }
+
+    public static void printCourseListFromXml() throws IOException, SAXException, ParserConfigurationException {
+        File input = new File("./src/main/resources/parser/courses.xml");
+        SAXParserFactory factory = SAXParserFactory.newInstance();
+        SAXParser parser = factory.newSAXParser();
+        CoursesXmlPureHandler handler = new CoursesXmlPureHandler();
+        parser.parse(input, handler);
+
+        log.info(handler.getCourses().toString());
+    }
 }
